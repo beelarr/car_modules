@@ -1,3 +1,4 @@
+require_relative 'student_error'
 require_relative 'car'
 require_relative 'student'
 
