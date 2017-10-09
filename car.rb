@@ -1,4 +1,5 @@
 #mixin module to another file
+require.pry
 
 module Car
   module ClassMethods
@@ -6,6 +7,7 @@ module Car
       true
     end
   end
+  binding.pry
   p "This is #{self}"
   p "This is #{ClassMethods} base"
   def self.included(base)
